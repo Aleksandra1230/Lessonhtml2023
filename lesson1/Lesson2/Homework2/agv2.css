@@ -1,0 +1,60 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+
+.father {
+  width:600px;
+  height: 100vh;
+  display: flex;
+  background-color: blanchedalmond;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Widgets{
+  width: 100%;
+  height: 30%;
+  background: midnightblue;
+  margin-bottom: 15px;
+}
+
+.body{
+  width: 100%;
+  height: 20%;
+  display: flex;
+ justify-content: space-between;
+}
+
+.block{
+  width: 30%;
+  height: 100%;
+ justify-content:space-between;
+
+}
+
+.Contact{
+  width: 100%;
+  height: 50%;
+  background: navy;
+  margin-top: 15px;
+
+}
+
+.Widgets, .block, .Contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blanchedalmond;
+  font-size: 20px;
+}
+
+.bg1{
+  background: cornflowerblue;
+}
+.bg2{
+background: dodgerblue;
+}
+.bg3{
+background: blue;
+}
