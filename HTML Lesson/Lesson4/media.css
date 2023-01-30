@@ -1,0 +1,24 @@
+@media screen and (min-width: 567px) and (max-width: 768px){
+.blok_A{
+  width: 100%;
+  height: 25%;
+}
+
+  .blok_B{
+    width: 100%;
+    height: 50%;
+  }
+
+  .blok_C{
+    width: 100%;
+    height: 22%;
+  }
+
+.blok_A,.blok_B,.blok_C{
+display: flex;
+  border: 3px solid black;
+border-radius: 8px;
+  background: linear-gradient(burlywood,sandybrown);
+  margin: 2px;
+}
+}
